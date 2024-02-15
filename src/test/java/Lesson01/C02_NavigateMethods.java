@@ -14,7 +14,7 @@ public class C02_NavigateMethods {
         driver.manage().window().maximize();
 
         //"www.amazon.com.tr" adresine git!
-        driver.navigate().to("https://www.amazon.com.tr/"); //navigate().to() get() e göre daha hızlı çalışır!
+        driver.navigate().to("https://www.amazon.com.tr/"); //navigate().to() & get() e göre daha hızlı çalışır!
 
         Thread.sleep(1000);
 
