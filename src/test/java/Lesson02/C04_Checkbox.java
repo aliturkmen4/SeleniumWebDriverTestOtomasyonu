@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class C04_CheckBox {
+public class C04_Checkbox {
     WebDriver driver; //class seviyesinde kullanılsın diye before un üstüne class ın içine tanınmlıyorum! (scope)
     @Before
     public void setUp() {
