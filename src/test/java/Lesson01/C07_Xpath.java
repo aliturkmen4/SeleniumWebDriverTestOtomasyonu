@@ -47,5 +47,8 @@ public class C07_Xpath {
         else{
             System.out.println("Add/remove elements yazısı görünmez.");
         }
+
+        //Browser kapat!
+        driver.quit();
     }
 }
