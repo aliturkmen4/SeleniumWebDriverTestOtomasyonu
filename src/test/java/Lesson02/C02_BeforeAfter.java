@@ -40,4 +40,6 @@ public class C02_BeforeAfter {
     public void tearDown() {
         driver.quit();
     }
+
+    //amazon için ayrı facebook için ayrı browser açar!
 }
