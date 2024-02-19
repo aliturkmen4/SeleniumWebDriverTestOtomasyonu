@@ -19,6 +19,6 @@ public class C05_Actions extends TestBaseBeforeAfter {
         Thread.sleep(2000);
         action.dragAndDrop(draggeble,dropHere).perform();
         //“Drop here” yazisi yerine “Dropped!” oldugunu test edin
-        Assert.assertEquals("Dropped!",driver.findElement(By.xpath("//*[@id='dropped']")));
+        Assert.assertEquals("Dropped!",driver.findElement(By.xpath("//*[@id='dropped']")).getText());
     }
 }
