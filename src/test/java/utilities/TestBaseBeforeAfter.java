@@ -16,7 +16,7 @@ public class TestBaseBeforeAfter {
         WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); //10 sn içinde yüklenirse testim okey!
     }
     @After
 
